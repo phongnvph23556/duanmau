@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".Fragment.DoiMatKhauFragment">
+
+    <ImageView
+        android:layout_marginTop="40dp"
+        android:src="@mipmap/polytechnic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_marginTop="20dp"
+        app:startIconDrawable="@drawable/ic_baseline_key_24"
+        app:passwordToggleEnabled="true"
+       app:boxBackgroundColor="#B4F4B7"
+        android:layout_width="match_parent"
+        android:layout_marginHorizontal="10dp"
+        android:layout_height="wrap_content">
+        <com.google.android.material.textfield.TextInputEditText
+
+            android:inputType="textPassword"
+            android:layout_width="match_parent"
+            android:id="@+id/matkhaucu"
+            android:hint="mật khẩu cũ"
+            android:layout_height="wrap_content"/>
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        app:passwordToggleEnabled="true"
+        app:startIconDrawable="@drawable/ic_baseline_key_24"
+        android:inputType="textPassword"
+        app:boxBackgroundColor="#B4F4B7"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="10dp"
+        android:layout_height="wrap_content">
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:id="@+id/matkhaumoi"
+            android:hint="mật khẩu mới"
+            android:layout_height="wrap_content"/>
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        app:passwordToggleEnabled="true"
+        app:startIconDrawable="@drawable/ic_baseline_key_24"
+        android:inputType="textPassword"
+        app:boxBackgroundColor="#B4F4B7"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="10dp"
+        android:layout_height="wrap_content">
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:id="@+id/matkhaumoi2"
+            android:hint="nhập lại mật khẩu mới"
+            android:layout_height="wrap_content"/>
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_marginHorizontal="35dp"
+        android:layout_height="wrap_content">
+        <Button
+            android:drawableStart="@drawable/ic_baseline_attach_money_24"
+            android:backgroundTint="#FF5722"
+            android:id="@+id/huydoimk"
+            android:text="HỦY"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:backgroundTint="#FF5722"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/luudoimk"
+            android:text="LƯU"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>

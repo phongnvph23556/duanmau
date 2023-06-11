@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/PHONGNVPH23556_MOB2041/app/src/main/res/drawable/ic_baseline_menu_24.xml" value="0.2285" />
+        <entry key="..\:/PHONGNVPH23556_MOB2041/app/src/main/res/layout/activity_dang_nhap.xml" value="0.2358974358974359" />
+        <entry key="..\:/PHONGNVPH23556_MOB2041/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/PHONGNVPH23556_MOB2041/app/src/main/res/layout/activity_man_hinh_chao.xml" value="0.25416666666666665" />
+        <entry key="..\:/PHONGNVPH23556_MOB2041/app/src/main/res/layout/fragment_doanh_thu.xml" value="0.23072916666666668" />
+        <entry key="..\:/PHONGNVPH23556_MOB2041/app/src/main/res/layout/fragment_doi_mat_khau.xml" value="0.22552083333333334" />
+        <entry key="..\:/PHONGNVPH23556_MOB2041/app/src/main/res/layout/fragment_q_l_loai_sach.xml" value="0.23072916666666668" />
+        <entry key="..\:/PHONGNVPH23556_MOB2041/app/src/main/res/layout/fragment_q_l_phieu_muon.xml" value="0.17372881355932204" />
+        <entry key="..\:/PHONGNVPH23556_MOB2041/app/src/main/res/layout/fragment_q_l_thanh_vien.xml" value="0.23072916666666668" />
+        <entry key="..\:/PHONGNVPH23556_MOB2041/app/src/main/res/layout/fragment_quan_li_sach.xml" value="0.2" />
+        <entry key="..\:/PHONGNVPH23556_MOB2041/app/src/main/res/layout/fragment_them_nguoi_dung.xml" value="0.23072916666666668" />
+        <entry key="..\:/PHONGNVPH23556_MOB2041/app/src/main/res/layout/fragment_top10.xml" value="0.1" />
+        <entry key="..\:/PHONGNVPH23556_MOB2041/app/src/main/res/layout/loaisach_oitem.xml" value="0.2" />
+        <entry key="..\:/PHONGNVPH23556_MOB2041/app/src/main/res/layout/nav_header.xml" value="0.2" />
+        <entry key="..\:/PHONGNVPH23556_MOB2041/app/src/main/res/layout/phieumuon_dialog.xml" value="0.1" />
+        <entry key="..\:/PHONGNVPH23556_MOB2041/app/src/main/res/layout/phieumuon_item.xml" value="0.176" />
+        <entry key="..\:/PHONGNVPH23556_MOB2041/app/src/main/res/layout/qlsach_item.xml" value="0.23854166666666668" />
+        <entry key="..\:/PHONGNVPH23556_MOB2041/app/src/main/res/layout/sach_dialog.xml" value="0.264" />
+        <entry key="..\:/PHONGNVPH23556_MOB2041/app/src/main/res/layout/sach_item_spiner.xml" value="0.19581017528858485" />
+        <entry key="..\:/PHONGNVPH23556_MOB2041/app/src/main/res/layout/sachspinner.xml" value="0.1013253527148354" />
+        <entry key="..\:/PHONGNVPH23556_MOB2041/app/src/main/res/layout/thanhvien_item.xml" value="0.264" />
+        <entry key="..\:/PHONGNVPH23556_MOB2041/app/src/main/res/layout/thanhvienspinner.xml" value="0.10047028644719966" />
+        <entry key="..\:/PHONGNVPH23556_MOB2041/app/src/main/res/layout/themthanhvien_dialog.xml" value="0.264" />
+        <entry key="..\:/PHONGNVPH23556_MOB2041/app/src/main/res/layout/toolbar.xml" value="0.1" />
+        <entry key="..\:/PHONGNVPH23556_MOB2041/app/src/main/res/layout/top10item.xml" value="0.536" />
+        <entry key="..\:/PHONGNVPH23556_MOB2041/app/src/main/res/menu/menuu.xml" value="0.264" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

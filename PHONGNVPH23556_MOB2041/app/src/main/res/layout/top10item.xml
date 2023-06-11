@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_height="match_parent">
+    <TextView
+        android:textColor="@color/black"
+        android:paddingLeft="5dp"
+        android:gravity="center_vertical"
+        android:layout_weight="1"
+        android:textSize="20dp"
+        android:id="@+id/tv_Sach"
+        android:textStyle="bold"
+        android:text="mã loại sách"
+        android:layout_width="0dp"
+        android:layout_height="50dp"/>
+    <TextView
+        android:textColor="@color/black"
+        android:paddingLeft="20dp"
+        android:textSize="20dp"
+        android:layout_weight="1"
+        android:id="@+id/tv_Soluong"
+        android:text=" số lượng"
+        android:textStyle="bold"
+        android:layout_width="0dp"
+        android:layout_height="50dp"/>
+
+</LinearLayout>

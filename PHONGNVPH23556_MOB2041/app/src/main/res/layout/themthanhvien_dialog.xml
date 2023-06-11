@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:orientation="vertical"
+    android:layout_height="500dp">
+
+    <EditText
+        android:layout_marginTop="40dp"
+        android:layout_marginHorizontal="10dp"
+        android:paddingHorizontal="15dp"
+        android:id="@+id/edtMaTV"
+        android:hint="Mã Thành viên"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_marginHorizontal="10dp"
+            android:paddingHorizontal="15dp"
+            android:layout_width="match_parent"
+            android:id="@+id/edtTenTV"
+            android:hint="tên thành viên"
+            android:layout_height="wrap_content"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_marginHorizontal="10dp"
+            android:paddingHorizontal="15dp"
+            android:layout_width="match_parent"
+            android:id="@+id/edtNamsinhTV"
+            android:hint="năm sinh thành viên"
+            android:layout_height="wrap_content"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+   <LinearLayout
+       android:layout_marginTop="30dp"
+       android:layout_marginHorizontal="20dp"
+       android:orientation="horizontal"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+       <Button
+           android:layout_marginRight="20dp"
+           android:backgroundTint="#FF5722"
+           android:id="@+id/btnhuythemtv"
+           android:text="hủy"
+           android:layout_weight="1"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"/>
+       <Button
+           android:backgroundTint="#FF5722"
+           android:id="@+id/btnthemtv"
+           android:text="lưu"
+           android:layout_weight="1"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"/>
+
+
+
+
+
+   </LinearLayout>
+
+
+</LinearLayout>

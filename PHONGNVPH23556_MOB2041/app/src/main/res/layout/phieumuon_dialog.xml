@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="10dp"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/edt_maPM"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="mã phiếu mượn" />
+
+    <Spinner
+        android:id="@+id/spin_maTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp" />
+
+    <Spinner
+        android:id="@+id/spin_maSach"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:id="@+id/tv_ngay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="ngày" />
+
+    <TextView
+        android:id="@+id/tv_tienthue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="tiền thuê" />
+
+    <CheckBox
+        android:id="@+id/checkbox_trasach"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="đã trả sách" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_themphieumuon"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:text="Lưu" />
+
+        <Button
+            android:id="@+id/btn_huythemphieumuon"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="hủy" />
+    </LinearLayout>
+
+</LinearLayout>

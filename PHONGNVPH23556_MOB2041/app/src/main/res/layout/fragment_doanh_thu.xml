@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F6DF99"
+    android:orientation="vertical"
+    tools:context=".Fragment.DoanhThuFragment">
+<LinearLayout
+    android:layout_marginTop="20dp"
+    android:layout_marginHorizontal="10dp"
+    android:orientation="horizontal"
+    android:weightSum="3"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <Button
+        android:backgroundTint="#4CAF50"
+        android:id="@+id/btnTuNgay"
+        android:text="Từ ngày"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:layout_marginLeft="10dp"
+        android:id="@+id/edtTuNgay"
+        android:hint="yyyy/mm/dd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_marginHorizontal="10dp"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:backgroundTint="#4CAF50"
+            android:text="đến ngày"
+            android:id="@+id/btnDenngay"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:layout_marginLeft="10dp"
+            android:hint="yyyy/mm/dd"
+            android:id="@+id/edtDenNgay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <Button
+        android:drawableStart="@drawable/ic_baseline_attach_money_24"
+        android:backgroundTint="#FF5722"
+        android:id="@+id/btnDoanhTHu"
+        android:text="doanh thu"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:textColor="#C12929"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/tvDoanhThu"
+        android:hint="doanh thu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

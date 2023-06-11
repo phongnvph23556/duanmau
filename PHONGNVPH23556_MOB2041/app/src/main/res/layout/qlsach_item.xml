@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="10dp"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="9"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_masach"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="mã sách" />
+
+        <TextView
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:id="@+id/tv_tensach"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="tên sách" />
+
+        <TextView
+            android:id="@+id/tv_giathue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="giá thuê" />
+        <TextView
+            android:id="@+id/tv_loaisach"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="loại sách" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_margin="20dp"
+            android:id="@+id/qlsach_delete"
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_baseline_delete_forever_24" />
+
+
+    </LinearLayout>
+</LinearLayout>

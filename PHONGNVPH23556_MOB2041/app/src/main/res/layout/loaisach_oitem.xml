@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_height="60dp">
+
+    <TextView
+        android:layout_marginLeft="5dp"
+        android:layout_weight="3"
+        android:text="tên loại"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="#DF5017"
+        android:id="@+id/tv_tenloai"
+        android:gravity="center_vertical"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"/>
+    <ImageView
+        android:id="@+id/img_deleteLsach"
+        android:src="@drawable/ic_baseline_delete_forever_24"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"/>
+
+
+</LinearLayout>
